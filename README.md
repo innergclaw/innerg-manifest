@@ -22,6 +22,17 @@ A token-efficient communication framework for AI agent workflows. Two documents 
 
 **Stop asking "can you..." and start sending everything in one message.**
 
+<table>
+  <tr>
+    <td align="center"><b>❌ The Old Way</b></td>
+    <td align="center"><b>✅ The New Way</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/old-way.jpg" width="400" alt="Old way — multiple back-and-forth messages"></td>
+    <td><img src="docs/new-way.jpg" width="400" alt="New way — one batched message, done"></td>
+  </tr>
+</table>
+
 ```
 ❌ OLD: 6 messages, 45K tokens, 30 minutes
    "Add image" → "Which tracker?" → "Vivian's" → "Caption?" → "Logo concept" → "Push?" → "Yes"
